@@ -63,4 +63,4 @@ Background in professional translation, transitioning into software quality assu
 
 ### Contact
 Email: joshua-pearson@outlook.com  
-LinkedIn: https://www.linkedin.com/in/joshua-pearson-387182124/
+LinkedIn: https://www.linkedin.com/in/joshua-pearson-qa
