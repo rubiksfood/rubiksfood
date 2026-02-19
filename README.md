@@ -1,11 +1,11 @@
 Hi, I'm Joshua 👋
 
-Junior QA / Test Engineer (ISTQB CTFL) with strong development fundamentals.  
+Junior QA Engineer (ISTQB CTFL) with strong development fundamentals.  
 Background in professional translation, transitioning into software quality assurance with a focus on reliability, usability, and collaboration.
 
 🎯 Open to: Junior QA / Test Engineer roles • QA-oriented Junior Developer roles  
-📍 Currently in Germany, relocating to Sweden  
-🗣 Working language: English (professional), German
+📍 Currently in Germany, open to relocation within Europe  
+🗣 Working language: English, German, Spanish
 
 ✅ ISTQB Certified Tester – Foundation Level (CTFL)  
 ✅ Practical experience with test design, test cases, and structured bug reporting  
@@ -39,16 +39,16 @@ Background in professional translation, transitioning into software quality assu
 ---
 
 ### Technical skills (supporting QA & development)
-**Languages:** Python, JavaScript, Java, SQL, HTML/CSS  
-**Tools:** Git/GitHub, VS Code, Linux  
+**Languages:** Python, JavaScript, C++, Java, SQL, HTML/CSS  
+**Tools:** Git/GitHub, VS Code, Visual Studio, Linux, Postman  
 **Other:** APIs, debugging, basic backend concepts, CI familiarity  
 
 ---
 
 ### Currently focusing on
 - Improving automated test structure and maintainability
-- Writing high-quality bug reports with logs and clear reproduction steps
-- Gaining deeper understanding of backend systems from a tester’s perspective
+- Writing more high-quality bug reports with logs and clear reproduction steps
+- Improving knowledge of various testing frameworks
 
 ---
 
