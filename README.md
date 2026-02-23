@@ -1,66 +1,87 @@
-Hi, I'm Joshua 👋
+## Hi, I'm Joshua 👋
 
-Junior QA Engineer (ISTQB CTFL) with strong development fundamentals.  
-Background in professional translation, transitioning into software quality assurance with a focus on reliability, usability, and collaboration.
+QA engineer with a backend focus, specialising in risk-based testing, CI reliability, and deterministic systems.  
+I design layered test strategies and document defects with clear severity and priority reasoning.  
+ISTQB CTFL certified, with ongoing development work in Java and full-stack applications.
 
-🎯 Open to: Junior QA / Test Engineer roles • QA-oriented Junior Developer roles  
-📍 Currently in Germany, open to relocation within Europe  
-🗣 Working language: English, German, Spanish
-
-✅ ISTQB Certified Tester – Foundation Level (CTFL)  
-✅ Practical experience with test design, test cases, and structured bug reporting  
-✅ Strong programming foundation (Python, JavaScript) to support testing and close collaboration with developers  
+🎯 Open to: QA / Test Engineer roles • QA-oriented Developer roles  
+📍 Based in Germany • Open to relocation within Europe  
+🗣 Languages: English (native), German (professional), Spanish (professional)
 
 ---
 
-### Selected projects
+## Selected Projects
 
-- **shopping-list-app** — Full-stack MERN application with comprehensive automated testing and CI  
-  *Quality focus:* end-to-end quality across frontend, backend, and E2E flows; realistic test environments; CI-based regression feedback  
-  *(MongoDB, Express, React, Node.js, Tailwind • Jest, Supertest, Vitest, RTL, MSW, Playwright)*
+### **shopping-list-app**
+Full-stack MERN application with structured automated testing and CI.
 
-- **knit-converter** — Domain-specific conversion utility with a unit-tested text-processing core  
-  *Quality focus:* validating business logic, edge cases, and correctness through isolated unit tests  
-  *(Python • pytest)*
+**Quality focus:**  
+End-to-end coverage across frontend, backend, and E2E flows; deterministic test environments; CI-based regression feedback; database lifecycle stability.
 
-- **media-playback-time-converter** — JavaScript web application with emphasis on input handling and user feedback  
-  *Quality focus:* accessibility-aware feedback, input normalisation, and ISTQB-aligned manual testing  
-  *(JavaScript, HTML/CSS)*
+*Tech:* MongoDB, Express, React, Node.js, Tailwind  
+*Testing:* Jest, Supertest, Vitest, React Testing Library, MSW, Playwright
 
 ---
 
-### Testing & QA skills
-- Test design techniques (equivalence partitioning, boundary value analysis)
-- Writing clear, reproducible test cases
-- Bug reporting with a focus on clarity, impact, and reproducibility
-- Exploratory testing and risk-based thinking
-- ISTQB Foundation Level methodology
+### **knit-converter**
+Domain-specific conversion utility with a unit-tested text-processing core.
+
+**Quality focus:**  
+Business logic validation, edge case handling, and correctness through isolated unit testing.
+
+*Tech:* Python  
+*Testing:* pytest
 
 ---
 
-### Technical skills (supporting QA & development)
-**Languages:** Python, JavaScript, C++, Java, SQL, HTML/CSS  
-**Tools:** Git/GitHub, VS Code, Visual Studio, Linux, Postman  
-**Other:** APIs, debugging, basic backend concepts, CI familiarity  
+### **media-playback-time-converter**
+JavaScript web application focused on input handling and user feedback.
+
+**Quality focus:**  
+Input normalisation, accessibility-aware feedback, and structured manual testing aligned with ISTQB principles.
+
+*Tech:* JavaScript, HTML/CSS
 
 ---
 
-### Currently focusing on
-- Improving automated test structure and maintainability
-- Writing more high-quality bug reports with logs and clear reproduction steps
-- Improving knowledge of various testing frameworks
+## Testing & QA Skills
+
+- Risk-based test planning and prioritisation  
+- Test design techniques (equivalence partitioning, boundary value analysis)  
+- Writing clear, reproducible test cases  
+- Structured defect reporting with impact-based severity and priority  
+- Exploratory testing and failure-mode analysis  
+- Applying ISTQB Foundation principles pragmatically  
 
 ---
 
-### How I work
-- Calm, structured, and detail-oriented
-- Comfortable working from specifications, acceptance criteria, and quality standards
-- Used to iterative feedback and collaborative problem-solving
-- Clear communicator with both technical and non-technical stakeholders
-- Value pragmatic solutions and shared ownership of quality
+## Technical Skills (Supporting QA & Development)
+
+**Languages:** Python, JavaScript, Java, C++, SQL, HTML/CSS  
+**Tools:** Git/GitHub, CI (GitHub Actions), Postman, Linux, VS Code  
+**Other:** REST APIs, debugging, backend fundamentals, environment configuration  
 
 ---
 
-### Contact
+## Current Focus
+
+- Strengthening automation structure and maintainability  
+- Expanding backend system design (Java)  
+- Deepening knowledge of test infrastructure and CI stability  
+
+---
+
+## How I Work
+
+- Structured and detail-oriented  
+- Comfortable working from specifications and acceptance criteria  
+- Strong written communicator for technical documentation  
+- Collaborative and pragmatic in problem-solving  
+- Focused on shared ownership of quality  
+
+---
+
+## Contact
+
 Email: joshua-pearson@outlook.com  
 LinkedIn: https://www.linkedin.com/in/joshua-pearson-qa
