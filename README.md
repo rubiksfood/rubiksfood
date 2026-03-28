@@ -37,8 +37,6 @@ Full-stack MERN application with a strong emphasis on testability, system reliab
 
 ## 🧪 qa-portfolio
 
-Structured QA documentation and test artefacts for the shopping-list-app.
-
 Structured QA artefacts based on the shopping-list-app, demonstrating applied ISTQB principles in a real project.
 
 **Includes:**
