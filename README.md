@@ -115,11 +115,11 @@ JavaScript web utility focused on input validation, usability, and accessibility
 
 # Technical Skills
 
-**Languages:** Java, Python, JavaScript, TypeScript, C++, SQL
+**Languages:** Java, Python, JavaScript, TypeScript, C++, SQL  
 **Backend:** REST APIs, service-layer structure, authentication, data validation  
 **Databases:** PostgreSQL, MongoDB  
 **Testing:** Playwright, Jest, Supertest, React Testing Library, pytest  
-**Tools:** Git, GitHub, GitHub Actions (CI), Docker, Maven, Postman, Linux
+**Tools:** Git, GitHub, GitHub Actions (CI), Docker, Maven, Postman, Linux  
 
 ---
 
