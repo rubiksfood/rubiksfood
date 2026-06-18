@@ -1,9 +1,9 @@
 # Hi, I'm Joshua 👋
 
-QA Engineer with a focus on test automation, CI reliability, and building stable, reproducible systems.  
-I combine structured test design with hands-on development to deliver well-tested, production-ready applications.  
+Junior QA Test Engineer focused on manual, API, regression, and system-level testing.  
+I combine structured test design with hands-on development to investigate defects, improve reliability, and build CI-integrated test suites.  
 
-ISTQB CTFL certified • Background in structured analysis • Strong focus on modern QA and automation practices  
+ISTQB CTFL certified • Python/JavaScript • Practical QA across full-stack and customer-facing systems  
 
 🎯 Open to: QA / Test Engineer • Test Automation Engineer • QA-oriented Developer roles  
 📍 Based in Germany • Open to relocation within Europe  
