@@ -64,8 +64,8 @@ Designed to explore structured backend development with an emphasis on correctne
 - Incremental feature development (v0.x releases)  
 
 **Current status:**
-- Functional API implementation complete (v0.2)  
-- QA validation and automated testing planned next  
+- Functional API implementation & QA testing complete (v0.2)  
+- Player Stats functionality (v0.3) planned next  
 
 **Tech:** Java, Maven, PostgreSQL  
 **Testing:** API testing (Postman, early-stage)  
