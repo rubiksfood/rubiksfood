@@ -1,148 +1,158 @@
 # Hi, I'm Joshua 👋
 
-Junior QA Test Engineer focused on manual, API, regression, and system-level testing.  
-I combine structured test design with hands-on development to investigate defects, improve reliability, and build CI-integrated test suites.  
+ISTQB CTFL-certified junior QA/Test Engineer with hands-on software development experience and a background in translation and technical communication.
 
-ISTQB CTFL certified • Python/JavaScript • Practical QA across full-stack and customer-facing systems  
+I build and test software with a strong focus on quality, combining structured testing, automation, and practical development skills to investigate defects, improve reliability, and support maintainable systems. My recent projects include full-stack application testing, backend API development, and audio quality validation tooling.
 
-🎯 Open to: QA / Test Engineer • Test Automation Engineer • QA-oriented Developer roles  
-📍 Based in Germany • Open to relocation within Europe  
-🗣 Languages: English (native), German (professional), Spanish (professional)  
+🎯 Open to: QA Engineer • Test Automation Engineer • Software Engineer • Audio QA Engineer
+
+📍 Based in Germany • Open to relocation within Europe
+
+🗣 Languages: English (native), German (professional), Spanish (professional), French (intermediate), Italian (intermediate), Swedish (intermediate)
 
 ---
 
-# Selected Projects
+# Featured Projects
 
-## 🧩 shopping-list-app (Full-Stack MERN)
+## 🎵 Audio QA Framework
 
-Full-stack MERN application with a strong emphasis on testability, system reliability, and CI-backed regression control.
+Python-based framework for automated audio quality validation, QA workflows, and audio analysis.
+
+Designed to demonstrate audio QA principles through automated validation, synthetic test data generation, CI-integrated testing, and structured QA documentation.
+
+**Features:**
+
+* WAV file validation
+* Sample rate and channel validation
+* Peak level analysis
+* Clipping detection
+* Start/end silence detection
+* Synthetic audio fixture generation
+* Automated regression testing
+* GitHub Actions CI
+
+**Tech:** Python, NumPy, SoundFile, Typer, Rich
+
+**Testing:** pytest
+
+**CI:** GitHub Actions
+
+---
+
+## 🧩 Shopping List App
+
+Full-stack MERN application with a strong emphasis on testability, reliability, and automated regression coverage.
 
 **Engineering:**
-- Layered frontend/backend architecture with clear separation of concerns  
-- REST API design with authentication and protected routes  
-- Consistent data handling and CRUD operations  
-- Deterministic environment configuration for reproducibility  
+
+* REST API design and authentication
+* CRUD operations and state management
+* Layered frontend/backend architecture
+* CI-backed development workflow
 
 **Testing & QA:**
-- Automated regression across backend, frontend, and E2E layers  
-- Test isolation and controlled environments (MSW, database lifecycle control)  
-- API validation and failure-mode testing  
-- CI integration as a quality gate to prevent regressions  
 
-**Tech:** MongoDB, Express, React, Node.js, JavaScript, TypeScript  
-**Testing:** Jest, Supertest, React Testing Library, MSW, Playwright  
-**CI:** GitHub Actions  
+* Backend integration testing
+* Frontend component testing
+* End-to-end testing
+* API validation and failure-mode testing
+* Automated regression coverage across multiple layers
+
+**Tech:** MongoDB, Express, React, Node.js, JavaScript, TypeScript
+
+**Testing:** Jest, Supertest, React Testing Library, MSW, Playwright
+
+**CI:** GitHub Actions
 
 ---
 
-## 🧪 qa-portfolio
+## 🧪 QA Engineering Portfolio
 
-Structured QA artefacts based on the shopping-list-app, demonstrating applied ISTQB principles in a real project.
+Curated QA artefacts demonstrating an ISTQB-aligned approach to software quality.
 
 **Includes:**
-- Risk-based test strategy and prioritisation  
-- Traceability mapping (requirements → tests)  
-- Test design (EP, BVA, negative testing)  
-- Exploratory testing notes and defect reporting  
-- Severity and priority justification  
-- Regression planning  
 
-Concept: Applying structured QA methodology in a practical, production-style context.
-
----
-
-## ♟ chess-stats-api (v0.2)
-
-Backend REST API built with Java, Maven, and PostgreSQL, focused on service-layer architecture and data modelling.
-
-Designed to explore structured backend development with an emphasis on correctness, validation, and incremental releases.
-
-**Focus areas:**
-- Layered architecture (controller → service → persistence)  
-- Relational data modelling and query design  
-- API design and endpoint structure  
-- Incremental feature development (v0.x releases)  
-
-**Current status:**
-- Functional API implementation & QA testing complete (v0.2)  
-- Player Stats functionality (v0.3) planned next  
-
-**Tech:** Java, Maven, PostgreSQL  
-**Testing:** API testing (Postman, early-stage)  
+* Risk-based test planning
+* Test design techniques (EP, BVA, negative testing)
+* Requirements traceability
+* Defect reporting
+* Exploratory testing
+* Regression planning
+* Test documentation linked to real software projects
 
 ---
 
-## 🧶 knit-converter
+## ♟ Chess Stats API
 
-Python CLI utility with a clearly separated, testable core focused on deterministic text processing.
+Java Spring Boot and PostgreSQL REST API for chess game import and player statistics.
 
-**Quality:**
-- Business rule validation and edge case handling  
-- Isolated unit testing of core logic  
-- Deterministic output verification  
+Designed to explore backend architecture, data modelling, API design, and QA-focused development workflows.
 
-**Tech:** Python  
-**Testing:** pytest  
-**CI:** GitHub Actions  
+**Focus Areas:**
 
----
+* Layered architecture
+* Relational data modelling
+* Service-layer design
+* SQL validation
+* Integration testing
+* Incremental versioned releases
 
-## ⏱ media-playback-time-converter
+**Tech:** Java, Spring Boot, PostgreSQL, Maven
 
-JavaScript web utility focused on input validation, usability, and accessibility.
-
-**Quality:**
-- Structured manual testing aligned with ISTQB principles  
-- Accessibility-aware validation and user feedback  
-- Edge case handling and input normalisation  
-
-**Tech:** JavaScript, HTML, CSS, Bootstrap  
+**Testing:** API and integration testing
 
 ---
 
 # Testing & QA Skills
 
-- Risk-based test design and prioritisation  
-- Manual, API, and automated testing (unit, integration, E2E)  
-- Test design techniques (EP, BVA, negative testing)  
-- Exploratory testing and failure-mode analysis  
-- Structured defect reporting with clear traceability  
-- Accessibility-focused testing  
-- CI-integrated regression thinking  
-- Applying ISTQB principles in practical development environments  
+* Risk-based testing and prioritisation
+* Manual, API, integration, regression, and system testing
+* Test automation and CI-integrated quality workflows
+* Exploratory testing and defect investigation
+* Test design techniques (EP, BVA, negative testing)
+* Requirements traceability and documentation
+* Structured defect reporting
+* Root cause analysis and failure investigation
+* Applying ISTQB principles in practical software projects
 
 ---
 
 # Technical Skills
 
-**Languages:** Java, Python, JavaScript, TypeScript, C++, SQL  
-**Backend:** REST APIs, service-layer structure, authentication, data validation  
-**Databases:** PostgreSQL, MongoDB  
-**Testing:** Playwright, Jest, Supertest, React Testing Library, pytest  
-**Tools:** Git, GitHub, GitHub Actions (CI), Docker, Maven, Postman, Linux  
+**Languages:** Python, Java, JavaScript, TypeScript, SQL, C++
+
+**Backend:** REST APIs, Spring Boot, Node.js, authentication, data validation
+
+**Databases:** PostgreSQL, MongoDB
+
+**Testing:** pytest, Playwright, Jest, Supertest, React Testing Library, MSW, Postman
+
+**Tools:** Git, GitHub, GitHub Actions, Docker, Maven, Linux
 
 ---
 
 # Current Focus
 
-- Expanding test automation across backend and API layers  
-- Developing backend systems in Java with a focus on testability  
-- Bridging development and QA to support end-to-end quality
-- Strengthening C++ skills with a focus on embedded systems and low-level performance
+* Audio QA and audio software development
+* Test automation and CI/CD practices
+* Python-based audio analysis tooling
+* Audio DSP fundamentals and signal processing
+* Strengthening C++ skills with a focus on low-level systems and performance
 
 ---
 
 # How I Work
 
-- Structured, analytical, and detail-oriented
-- Strong focus on reproducibility and reliability  
-- Comfortable working from specifications and acceptance criteria  
-- Clear and concise in technical communication and documentation  
-- Collaborative and pragmatic in problem-solving  
+* Structured and analytical
+* Strong focus on reliability and reproducibility
+* Comfortable working from specifications and acceptance criteria
+* Clear and concise technical communicator
+* Pragmatic and collaborative problem-solver
 
 ---
 
 # Contact
 
-📧 Email: joshua-pearson@outlook.com  
-🔗 LinkedIn: https://www.linkedin.com/in/joshua-pearson-qa
+📧 Email: [joshua-pearson@outlook.com](mailto:joshua-pearson@outlook.com)
+
+🔗 LinkedIn: linkedin.com/in/joshua-pearson-qa
