@@ -8,7 +8,8 @@ I build and test software with a strong focus on quality, combining structured t
 
 📍 Based in Germany • Open to relocation within Europe
 
-🗣 Languages: English (native), German (professional), Spanish (professional), French (intermediate), Italian (intermediate), Swedish (intermediate)
+🗣 **Languages:**  
+English (native) • German, Spanish (professional) • French, Italian, Swedish (intermediate)
 
 ---
 
