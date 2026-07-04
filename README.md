@@ -4,11 +4,11 @@ ISTQB CTFL-certified junior QA/Test Engineer with hands-on software development 
 
 I build and test software with a focus on reliability, testability, and clear documentation. My projects combine structured QA practice, automation, backend development, and audio-focused validation work.
 
-🎯 **Open to:** QA Engineer • Test Automation Engineer • Software Engineer • Audio QA Engineer
+🎯 **Open to**: QA Engineer • Test Automation Engineer • Software Engineer • Audio QA Engineer
 
 📍 Based in Germany • Open to roles across Europe
 
-🗣 **Languages:**  
+🗣 **Languages**:  
 English (native) • German, Spanish (professional) • French, Swedish (intermediate)
 
 ---
@@ -151,11 +151,11 @@ Curated QA artefacts demonstrating an ISTQB-aligned approach to software quality
 
 # Technical Skills
 
-**Languages:** Python, Java, JavaScript, TypeScript, SQL, C++
-**Backend:** REST APIs, Spring Boot, Node.js, Express, authentication, data validation
-**Databases:** PostgreSQL, MongoDB
-**Testing:** pytest, Playwright, Jest, Supertest, React Testing Library, MSW, Postman
-**Tools:** Git, GitHub, GitHub Actions, Docker, Maven, Linux
+**Languages:** Python, Java, JavaScript, TypeScript, SQL, C++  
+**Backend:** REST APIs, Spring Boot, Node.js, Express, authentication, data validation  
+**Databases:** PostgreSQL, MongoDB  
+**Testing:** pytest, Playwright, Jest, Supertest, React Testing Library, MSW, Postman  
+**Tools:** Git, GitHub, GitHub Actions, Docker, Maven, Linux  
 
 ---
 
@@ -181,5 +181,5 @@ Curated QA artefacts demonstrating an ISTQB-aligned approach to software quality
 
 # Contact
 
-📧 **Email:** [joshua-pearson@outlook.com](mailto:joshua-pearson@outlook.com)
-🔗 **LinkedIn:** [linkedin.com/in/joshua-pearson-qa](https://www.linkedin.com/in/joshua-pearson-qa)
+📧 **Email:** [joshua-pearson@outlook.com](mailto:joshua-pearson@outlook.com)  
+🔗 **LinkedIn:** [linkedin.com/in/joshua-pearson-qa](https://www.linkedin.com/in/joshua-pearson-qa)  
