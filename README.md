@@ -1,19 +1,80 @@
 # Hi, I'm Joshua 👋
 
-ISTQB CTFL-certified junior QA/Test Engineer with hands-on software development experience and a background in translation and technical communication.
+ISTQB CTFL-certified junior QA/Test Engineer with hands-on software development experience and a background in translation, technical communication, and audio technology.
 
-I build and test software with a strong focus on quality, combining structured testing, automation, and practical development skills to investigate defects, improve reliability, and support maintainable systems. My recent projects include full-stack application testing, backend API development, and audio quality validation tooling.
+I build and test software with a focus on reliability, testability, and clear documentation. My projects combine structured QA practice, automation, backend development, and audio-focused validation work.
 
-🎯 Open to: QA Engineer • Test Automation Engineer • Software Engineer • Audio QA Engineer
+🎯 **Open to:** QA Engineer • Test Automation Engineer • Software Engineer • Audio QA Engineer
 
-📍 Based in Germany • Open to relocation within Europe
+📍 Based in Germany • Open to roles across Europe
 
 🗣 **Languages:**  
-English (native) • German, Spanish (professional) • French, Italian, Swedish (intermediate)
+English (native) • German, Spanish (professional) • French, Swedish (intermediate)
 
 ---
 
 # Featured Projects
+
+## 🎧 Audio Interface Validation Lab
+
+Cross-platform hardware/software validation project for the **Focusrite Scarlett 2i2** audio interface.
+
+This project demonstrates professional QA practice through structured test planning, risk-based testing, traceability, test execution, evidence collection, and final reporting across Windows and Linux environments.
+
+**Validation Areas:**
+
+* Device detection and driver/backend configuration
+* Recording and playback workflows
+* Sample rate and buffer size behaviour
+* Reliability, stability, and reconnect recovery
+* Cross-platform compatibility
+* System log analysis
+* Risk analysis and requirements traceability
+
+**Platforms:**
+
+* Windows 11, REAPER, ASIO
+* Ubuntu Linux, Ardour, JACK/PipeWire
+
+**Documentation:**
+
+* Test Plan
+* Test Strategy
+* Risk Analysis
+* Environment Documentation
+* Test Cases
+* Traceability Matrix
+* Test Execution Results
+* Final Test Summary Report
+
+**QA Focus:** Manual Testing, Hardware Validation, Audio QA, Cross-Platform Testing, Risk-Based Testing, Test Documentation
+
+---
+
+## 🧩 Shopping List App
+
+Full-stack MERN application built with a strong emphasis on reliability, testability, and automated regression coverage.
+
+**Engineering:**
+
+* REST API design and authentication
+* CRUD operations and state management
+* Layered frontend/backend architecture
+* CI-backed development workflow
+
+**Testing & QA:**
+
+* Backend integration testing
+* Frontend component testing
+* End-to-end testing
+* API validation and failure-mode testing
+* Automated regression coverage across multiple layers
+
+**Tech:** MongoDB, Express, React, Node.js, JavaScript, TypeScript
+**Testing:** Jest, Supertest, React Testing Library, MSW, Playwright
+**CI:** GitHub Actions
+
+---
 
 ## 🎵 Audio QA Framework
 
@@ -33,53 +94,8 @@ Designed to demonstrate audio QA principles through automated validation, synthe
 * GitHub Actions CI
 
 **Tech:** Python, NumPy, SoundFile, Typer, Rich
-
 **Testing:** pytest
-
 **CI:** GitHub Actions
-
----
-
-## 🧩 Shopping List App
-
-Full-stack MERN application with a strong emphasis on testability, reliability, and automated regression coverage.
-
-**Engineering:**
-
-* REST API design and authentication
-* CRUD operations and state management
-* Layered frontend/backend architecture
-* CI-backed development workflow
-
-**Testing & QA:**
-
-* Backend integration testing
-* Frontend component testing
-* End-to-end testing
-* API validation and failure-mode testing
-* Automated regression coverage across multiple layers
-
-**Tech:** MongoDB, Express, React, Node.js, JavaScript, TypeScript
-
-**Testing:** Jest, Supertest, React Testing Library, MSW, Playwright
-
-**CI:** GitHub Actions
-
----
-
-## 🧪 QA Engineering Portfolio
-
-Curated QA artefacts demonstrating an ISTQB-aligned approach to software quality.
-
-**Includes:**
-
-* Risk-based test planning
-* Test design techniques (EP, BVA, negative testing)
-* Requirements traceability
-* Defect reporting
-* Exploratory testing
-* Regression planning
-* Test documentation linked to real software projects
 
 ---
 
@@ -87,7 +103,7 @@ Curated QA artefacts demonstrating an ISTQB-aligned approach to software quality
 
 Java Spring Boot and PostgreSQL REST API for chess game import and player statistics.
 
-Designed to explore backend architecture, data modelling, API design, and QA-focused development workflows.
+Built to explore backend architecture, data modelling, API design, and QA-focused development workflows.
 
 **Focus Areas:**
 
@@ -99,8 +115,23 @@ Designed to explore backend architecture, data modelling, API design, and QA-foc
 * Incremental versioned releases
 
 **Tech:** Java, Spring Boot, PostgreSQL, Maven
-
 **Testing:** API and integration testing
+
+---
+
+## 🧪 QA Engineering Portfolio
+
+Curated QA artefacts demonstrating an ISTQB-aligned approach to software quality.
+
+**Includes:**
+
+* Risk-based test planning
+* Test design techniques: equivalence partitioning, boundary value analysis, negative testing
+* Requirements traceability
+* Defect reporting
+* Exploratory testing
+* Regression planning
+* Test documentation linked to real software projects
 
 ---
 
@@ -110,50 +141,45 @@ Designed to explore backend architecture, data modelling, API design, and QA-foc
 * Manual, API, integration, regression, and system testing
 * Test automation and CI-integrated quality workflows
 * Exploratory testing and defect investigation
-* Test design techniques (EP, BVA, negative testing)
+* Test design techniques: EP, BVA, negative testing
 * Requirements traceability and documentation
 * Structured defect reporting
 * Root cause analysis and failure investigation
-* Applying ISTQB principles in practical software projects
+* Practical application of ISTQB principles
 
 ---
 
 # Technical Skills
 
 **Languages:** Python, Java, JavaScript, TypeScript, SQL, C++
-
-**Backend:** REST APIs, Spring Boot, Node.js, authentication, data validation
-
+**Backend:** REST APIs, Spring Boot, Node.js, Express, authentication, data validation
 **Databases:** PostgreSQL, MongoDB
-
 **Testing:** pytest, Playwright, Jest, Supertest, React Testing Library, MSW, Postman
-
 **Tools:** Git, GitHub, GitHub Actions, Docker, Maven, Linux
 
 ---
 
 # Current Focus
 
-* Audio QA and audio software development
-* Test automation and CI/CD practices
+* Audio QA and audio software testing
+* Test automation and CI/CD workflows
 * Python-based audio analysis tooling
 * Audio DSP fundamentals and signal processing
-* Strengthening C++ skills with a focus on low-level systems and performance
+* Strengthening C++ for low-level systems and performance-focused development
 
 ---
 
 # How I Work
 
-* Structured and analytical
-* Strong focus on reliability and reproducibility
+* Structured, analytical, and evidence-driven
+* Focused on reliability, reproducibility, and clear documentation
 * Comfortable working from specifications and acceptance criteria
-* Clear and concise technical communicator
-* Pragmatic and collaborative problem-solver
+* Strong technical communicator with a background in translation
+* Pragmatic, curious, and collaborative
 
 ---
 
 # Contact
 
-📧 Email: [joshua-pearson@outlook.com](mailto:joshua-pearson@outlook.com)
-
-🔗 LinkedIn: linkedin.com/in/joshua-pearson-qa
+📧 **Email:** [joshua-pearson@outlook.com](mailto:joshua-pearson@outlook.com)
+🔗 **LinkedIn:** [linkedin.com/in/joshua-pearson-qa](https://www.linkedin.com/in/joshua-pearson-qa)
