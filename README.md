@@ -47,7 +47,7 @@ This project demonstrates professional QA practice through structured test plann
 * Test Execution Results
 * Final Test Summary Report
 
-**QA Focus:** Manual Testing, Hardware Validation, Audio QA, Cross-Platform Testing, Risk-Based Testing, Test Documentation
+**QA Focus:** Manual Testing, Hardware Validation, Audio QA, Cross-Platform Testing, Risk-Based Testing, Test Documentation  
 
 ---
 
@@ -70,9 +70,9 @@ Full-stack MERN application built with a strong emphasis on reliability, testabi
 * API validation and failure-mode testing
 * Automated regression coverage across multiple layers
 
-**Tech:** MongoDB, Express, React, Node.js, JavaScript, TypeScript
-**Testing:** Jest, Supertest, React Testing Library, MSW, Playwright
-**CI:** GitHub Actions
+**Tech:** MongoDB, Express, React, Node.js, JavaScript, TypeScript  
+**Testing:** Jest, Supertest, React Testing Library, MSW, Playwright  
+**CI:** GitHub Actions  
 
 ---
 
@@ -93,9 +93,9 @@ Designed to demonstrate audio QA principles through automated validation, synthe
 * Automated regression testing
 * GitHub Actions CI
 
-**Tech:** Python, NumPy, SoundFile, Typer, Rich
-**Testing:** pytest
-**CI:** GitHub Actions
+**Tech:** Python, NumPy, SoundFile, Typer, Rich  
+**Testing:** pytest  
+**CI:** GitHub Actions  
 
 ---
 
@@ -114,8 +114,8 @@ Built to explore backend architecture, data modelling, API design, and QA-focuse
 * Integration testing
 * Incremental versioned releases
 
-**Tech:** Java, Spring Boot, PostgreSQL, Maven
-**Testing:** API and integration testing
+**Tech:** Java, Spring Boot, PostgreSQL, Maven  
+**Testing:** API and integration testing  
 
 ---
 
