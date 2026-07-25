@@ -161,9 +161,9 @@ Curated QA artefacts demonstrating an ISTQB-aligned approach to software quality
 
 # Current Focus
 
+* Networking (TCP/IP, UDP, Dante, ST2110, AES67/Ravenna, AES3, MADI)
 * Audio QA and audio software testing
 * Test automation and CI/CD workflows
-* Python-based audio analysis tooling
 * Audio DSP fundamentals and signal processing
 * Strengthening C++ for low-level systems and performance-focused development
 
