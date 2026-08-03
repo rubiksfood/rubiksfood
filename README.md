@@ -4,10 +4,13 @@ I'm an ISTQB-certified QA/Test Engineer and junior software developer with comme
 
 I design and execute structured test projects, build automated regression coverage, and develop Python and JavaScript tooling with an emphasis on reliability, testability, reproducibility, and clear documentation.
 
-🎯 **Target roles:** Software Test Engineer • QA Engineer • Test Automation Engineer • Junior Software Engineer • Audio QA Engineer
-📍 **Based in Germany:** Open to relocation and opportunities across Europe
-🌍 **Citizenship:** German and British
-🗣️ **Languages:** English (native) • German and Spanish (fluent)
+🎯 **Target roles:** Software Test Engineer • QA Engineer • Test Automation Engineer • Junior Software Engineer • Audio QA Engineer  
+
+📍 **Based in Germany:** Open to relocation and opportunities across Europe  
+
+🌍 **Citizenship:** German and British  
+
+🗣️ **Languages:** English (native) • German and Spanish (fluent)  
 
 ---
 
@@ -76,8 +79,8 @@ The framework is designed around testability, predictable failure handling, type
 * GitHub Actions CI
 * Validation using a Focusrite Scarlett 2i2
 
-**Tech:** Python • Typer • Pydantic • sounddevice • PortAudio • Rich
-**Quality:** pytest • mypy • Ruff • pre-commit • GitHub Actions
+**Tech:** Python • Typer • Pydantic • sounddevice • PortAudio • Rich  
+**Quality:** pytest • mypy • Ruff • pre-commit • GitHub Actions  
 
 ---
 
@@ -104,9 +107,9 @@ A full-stack MERN application built with a strong emphasis on maintainability, t
 * End-to-end browser testing
 * 59 automated tests across backend, frontend, and E2E layers
 
-**Tech:** MongoDB • Express • React • Node.js • JavaScript • TypeScript
-**Testing:** Jest • Supertest • React Testing Library • MSW • Playwright
-**CI:** GitHub Actions
+**Tech:** MongoDB • Express • React • Node.js • JavaScript • TypeScript  
+**Testing:** Jest • Supertest • React Testing Library • MSW • Playwright  
+**CI:** GitHub Actions  
 
 ---
 
@@ -148,14 +151,14 @@ A collection of practical QA artefacts demonstrating an ISTQB-aligned approach t
 
 ## Technical Skills
 
-**Testing:** Manual, exploratory, functional, integration, API, system, regression, and end-to-end testing
-**QA Methods:** Risk-based testing, test design, defect investigation, traceability, and test documentation
-**Automation:** pytest, Playwright, Jest, Supertest, React Testing Library, MSW
-**Programming:** Python, JavaScript, TypeScript, Java, SQL, C++
-**Backend:** Node.js, Express, Spring Boot, REST APIs, authentication, and input validation
-**Databases:** MongoDB, PostgreSQL, SQL
-**Tools:** Git, GitHub, GitHub Actions, Docker, Postman, Linux, Jira
-**Audio Systems:** Audio interfaces, signal flow, ASIO, WASAPI, ALSA, JACK, PipeWire, and PulseAudio
+* **Testing:** Manual, exploratory, functional, integration, API, system, regression, and end-to-end testing
+* **QA Methods:** Risk-based testing, test design, defect investigation, traceability, and test documentation
+* **Automation:** pytest, Playwright, Jest, Supertest, React Testing Library, MSW
+* **Programming:** Python, JavaScript, TypeScript, Java, SQL, C++
+* **Backend:** Node.js, Express, Spring Boot, REST APIs, authentication, and input validation
+* **Databases:** MongoDB, PostgreSQL, SQL
+* **Tools:** Git, GitHub, GitHub Actions, Docker, Postman, Linux, Jira
+* **Audio Systems:** Audio interfaces, signal flow, ASIO, WASAPI, ALSA, JACK, PipeWire, and PulseAudio
 
 ---
 
@@ -193,5 +196,5 @@ A collection of practical QA artefacts demonstrating an ISTQB-aligned approach t
 
 ## Contact
 
-📧 **Email:** [joshua-pearson@outlook.com](mailto:joshua-pearson@outlook.com)
-🔗 **LinkedIn:** [linkedin.com/in/joshua-pearson-qa](https://www.linkedin.com/in/joshua-pearson-qa)
+📧 **Email:** [joshua-pearson@outlook.com](mailto:joshua-pearson@outlook.com)  
+🔗 **LinkedIn:** [linkedin.com/in/joshua-pearson-qa](https://www.linkedin.com/in/joshua-pearson-qa)  
