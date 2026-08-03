@@ -16,6 +16,35 @@ I design and execute structured test projects, build automated regression covera
 
 ## Featured Projects
 
+### 🧩 Shopping List App
+
+A full-stack MERN application built with a strong emphasis on maintainability, testability, and automated regression coverage.
+
+**Engineering:**
+
+* REST API with authentication and authorisation
+* Secure per-user data isolation
+* Structured Express routing and middleware
+* Input validation and error handling
+* React frontend with asynchronous API integration
+* MongoDB persistence and data modelling
+
+**Testing:**
+
+* Backend integration testing
+* Frontend component testing
+* API validation
+* Authentication and authorisation testing
+* Negative and failure-path testing
+* End-to-end browser testing
+* 59 automated tests across backend, frontend, and E2E layers
+
+**Tech:** MongoDB • Express • React • Node.js • JavaScript • TypeScript  
+**Testing:** Jest • Supertest • React Testing Library • MSW • Playwright  
+**CI:** GitHub Actions  
+
+---
+
 ### 🎧 Audio Interface Validation Lab
 
 A structured cross-platform validation project for a **Focusrite Scarlett 2i2** audio interface across Windows and Linux.
@@ -84,32 +113,27 @@ The framework is designed around testability, predictable failure handling, type
 
 ---
 
-### 🧩 Shopping List App
+### 🎵 Audio QA Framework
 
-A full-stack MERN application built with a strong emphasis on maintainability, testability, and automated regression coverage.
+A Python CLI framework for validating audio-file metadata and waveform-level properties against configurable quality requirements.
 
-**Engineering:**
+**Implemented checks:**
 
-* REST API with authentication and authorisation
-* Secure per-user data isolation
-* Structured Express routing and middleware
-* Input validation and error handling
-* React frontend with asynchronous API integration
-* MongoDB persistence and data modelling
+* File readability
+* Sample rate
+* Channel count
+* Duration
+* Peak level in dBFS
+* RMS level in dBFS
+* Digital clipping
+* Leading silence
+* Trailing silence
 
-**Testing:**
+The project includes structured PASS, WARNING and FAIL reporting, synthetic audio fixtures, pytest regression coverage and GitHub Actions CI.
 
-* Backend integration testing
-* Frontend component testing
-* API validation
-* Authentication and authorisation testing
-* Negative and failure-path testing
-* End-to-end browser testing
-* 59 automated tests across backend, frontend, and E2E layers
-
-**Tech:** MongoDB • Express • React • Node.js • JavaScript • TypeScript  
-**Testing:** Jest • Supertest • React Testing Library • MSW • Playwright  
-**CI:** GitHub Actions  
+**Tech:** Python, NumPy, SoundFile, Typer, Rich
+**Testing:** pytest
+**CI:** GitHub Actions
 
 ---
 
