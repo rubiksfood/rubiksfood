@@ -1,184 +1,197 @@
 # Hi, I'm Joshua 👋
 
-ISTQB CTFL-certified junior QA/Test Engineer with hands-on software development experience and a background in translation, technical communication, and audio technology.
+I'm an ISTQB-certified QA/Test Engineer and junior software developer with commercial testing experience and hands-on expertise in automation, full-stack development, cross-platform validation and audio technology.
 
-I build and test software with a focus on reliability, testability, and clear documentation. My projects combine structured QA practice, automation, backend development, and audio-focused validation work.
+I design and execute structured test projects, build automated regression coverage, and develop Python and JavaScript tooling with an emphasis on reliability, testability, reproducibility, and clear documentation.
 
-🎯 **Open to**: QA Engineer • Test Automation Engineer • Software Engineer • Audio QA Engineer
-
-📍 Based in Germany • Open to roles across Europe
-
-🗣 **Languages**:  
-English (native) • German, Spanish (professional) • French, Swedish (intermediate)
+🎯 **Target roles:** Software Test Engineer • QA Engineer • Test Automation Engineer • Junior Software Engineer • Audio QA Engineer
+📍 **Based in Germany:** Open to relocation and opportunities across Europe
+🌍 **Citizenship:** German and British
+🗣️ **Languages:** English (native) • German and Spanish (fluent)
 
 ---
 
-# Featured Projects
+## Featured Projects
 
-## 🎧 Audio Interface Validation Lab
+### 🎧 Audio Interface Validation Lab
 
-Cross-platform hardware/software validation project for the **Focusrite Scarlett 2i2** audio interface.
+A structured cross-platform validation project for a **Focusrite Scarlett 2i2** audio interface across Windows and Linux.
 
-This project demonstrates professional QA practice through structured test planning, risk-based testing, traceability, test execution, evidence collection, and final reporting across Windows and Linux environments.
+The project applies professional QA methods to hardware/software integration testing, including risk analysis, requirements traceability, controlled test execution, evidence collection, defect investigation, and final reporting.
 
-**Validation Areas:**
+**Test coverage:**
 
-* Device detection and driver/backend configuration
+* Device detection and driver/backend behaviour
 * Recording and playback workflows
-* Sample rate and buffer size behaviour
-* Reliability, stability, and reconnect recovery
+* Signal routing and sample-rate configuration
+* Recovery and reconnect behaviour
 * Cross-platform compatibility
-* System log analysis
-* Risk analysis and requirements traceability
+* Latency and operating-system interactions
+* Positive, negative, and repeatable test scenarios
 
-**Platforms:**
+**Test environments:**
 
 * Windows 11, REAPER, ASIO
 * Ubuntu Linux, Ardour, JACK/PipeWire
 
-**Documentation:**
+**QA artefacts:**
 
-* Test Plan
-* Test Strategy
-* Risk Analysis
-* Environment Documentation
-* Test Cases
-* Traceability Matrix
-* Test Execution Results
-* Final Test Summary Report
+* Test strategy and test plan
+* Risk analysis
+* Environment documentation
+* Traceability matrix
+* 26 detailed test cases
+* Execution evidence
+* Defect documentation
+* Final test report
 
-**QA Focus:** Manual Testing, Hardware Validation, Audio QA, Cross-Platform Testing, Risk-Based Testing, Test Documentation  
+**Focus:** Hardware Validation • Manual Testing • Risk-Based Testing • Cross-Platform Testing • Audio QA • Test Documentation
 
 ---
 
-## 🧩 Shopping List App
+### 🔊 Audio Hardware Validation Framework
 
-Full-stack MERN application built with a strong emphasis on reliability, testability, and automated regression coverage.
+A cross-platform Python CLI framework for automated audio-device discovery and stream-opening validation on Windows and Linux.
+
+The framework is designed around testability, predictable failure handling, typed configuration, and hardware-independent automated testing.
+
+**Key features:**
+
+* Audio-device discovery and capability inspection
+* Input-only, output-only, and duplex stream validation
+* Configuration-driven device matching
+* Ambiguity and no-match handling
+* WASAPI, WDM-KS, ALSA, JACK, and PulseAudio support
+* Structured JSON output
+* Rich terminal reporting
+* Deterministic fake backend for hardware-independent tests
+
+**Engineering quality:**
+
+* Modular backend abstractions
+* pytest regression coverage
+* Strict mypy type checking
+* Ruff linting and formatting
+* Pre-commit hooks
+* GitHub Actions CI
+* Validation using a Focusrite Scarlett 2i2
+
+**Tech:** Python • Typer • Pydantic • sounddevice • PortAudio • Rich
+**Quality:** pytest • mypy • Ruff • pre-commit • GitHub Actions
+
+---
+
+### 🧩 Shopping List App
+
+A full-stack MERN application built with a strong emphasis on maintainability, testability, and automated regression coverage.
 
 **Engineering:**
 
-* REST API design and authentication
-* CRUD operations and state management
-* Layered frontend/backend architecture
-* CI-backed development workflow
+* REST API with authentication and authorisation
+* Secure per-user data isolation
+* Structured Express routing and middleware
+* Input validation and error handling
+* React frontend with asynchronous API integration
+* MongoDB persistence and data modelling
 
-**Testing & QA:**
+**Testing:**
 
 * Backend integration testing
 * Frontend component testing
-* End-to-end testing
-* API validation and failure-mode testing
-* Automated regression coverage across multiple layers
+* API validation
+* Authentication and authorisation testing
+* Negative and failure-path testing
+* End-to-end browser testing
+* 59 automated tests across backend, frontend, and E2E layers
 
-**Tech:** MongoDB, Express, React, Node.js, JavaScript, TypeScript  
-**Testing:** Jest, Supertest, React Testing Library, MSW, Playwright  
-**CI:** GitHub Actions  
-
----
-
-## 🎵 Audio QA Framework
-
-Python-based framework for automated audio quality validation, QA workflows, and audio analysis.
-
-Designed to demonstrate audio QA principles through automated validation, synthetic test data generation, CI-integrated testing, and structured QA documentation.
-
-**Features:**
-
-* WAV file validation
-* Sample rate and channel validation
-* Peak level analysis
-* Clipping detection
-* Start/end silence detection
-* Synthetic audio fixture generation
-* Automated regression testing
-* GitHub Actions CI
-
-**Tech:** Python, NumPy, SoundFile, Typer, Rich  
-**Testing:** pytest  
-**CI:** GitHub Actions  
+**Tech:** MongoDB • Express • React • Node.js • JavaScript • TypeScript
+**Testing:** Jest • Supertest • React Testing Library • MSW • Playwright
+**CI:** GitHub Actions
 
 ---
 
-## ♟ Chess Stats API
+## Additional Projects
 
-Java Spring Boot and PostgreSQL REST API for chess game import and player statistics.
+### ♟️ Chess Stats API
 
-Built to explore backend architecture, data modelling, API design, and QA-focused development workflows.
+A Java Spring Boot and PostgreSQL REST API for importing chess games and generating player statistics.
 
-**Focus Areas:**
+**Focus:** Layered architecture • Relational data modelling • REST API design • Service-layer logic • SQL • Integration testing
 
-* Layered architecture
-* Relational data modelling
-* Service-layer design
-* SQL validation
-* Integration testing
-* Incremental versioned releases
+### 🧶 Knit Converter
 
-**Tech:** Java, Spring Boot, PostgreSQL, Maven  
-**Testing:** API and integration testing  
+A modular Python CLI application with input validation, edge-case handling, and pytest coverage.
+
+### ⏱️ Media Playback Time Converter
+
+An accessible JavaScript web application for calculating media playback durations across different playback speeds.
 
 ---
 
-## 🧪 QA Engineering Portfolio
+## QA Engineering Portfolio
 
-Curated QA artefacts demonstrating an ISTQB-aligned approach to software quality.
+A collection of practical QA artefacts demonstrating an ISTQB-aligned approach to software quality.
 
 **Includes:**
 
 * Risk-based test planning
-* Test design techniques: equivalence partitioning, boundary value analysis, negative testing
-* Requirements traceability
-* Defect reporting
+* Equivalence partitioning
+* Boundary value analysis
+* Negative testing
 * Exploratory testing
+* Traceability matrix
+* Defect reporting
 * Regression planning
-* Test documentation linked to real software projects
+* Test execution evidence
 
 ---
 
-# Testing & QA Skills
+## Technical Skills
 
-* Risk-based testing and prioritisation
-* Manual, API, integration, regression, and system testing
+**Testing:** Manual, exploratory, functional, integration, API, system, regression, and end-to-end testing
+**QA Methods:** Risk-based testing, test design, defect investigation, traceability, and test documentation
+**Automation:** pytest, Playwright, Jest, Supertest, React Testing Library, MSW
+**Programming:** Python, JavaScript, TypeScript, Java, SQL, C++
+**Backend:** Node.js, Express, Spring Boot, REST APIs, authentication, and input validation
+**Databases:** MongoDB, PostgreSQL, SQL
+**Tools:** Git, GitHub, GitHub Actions, Docker, Postman, Linux, Jira
+**Audio Systems:** Audio interfaces, signal flow, ASIO, WASAPI, ALSA, JACK, PipeWire, and PulseAudio
+
+---
+
+## Certifications and Education
+
+* **ISTQB Certified Tester Foundation Level** — August 2025
+* **Dante Certified Levels 1 and 2** — July 2026
+* **CS50x: Introduction to Computer Science** — Harvard Online, 2025
+* **Algorithms and Data Structures, Part I** — Princeton Online, 2024
+* **Bachelor of Music with Honours** — University of Huddersfield
+
+---
+
+## Current Focus
+
+* Cross-platform audio hardware validation
 * Test automation and CI-integrated quality workflows
-* Exploratory testing and defect investigation
-* Test design techniques: EP, BVA, negative testing
-* Requirements traceability and documentation
-* Structured defect reporting
-* Root cause analysis and failure investigation
-* Practical application of ISTQB principles
+* Python tooling and maintainable software architecture
+* Audio networking, including Dante, TCP/IP, and UDP
+* Hardware/software integration testing
+* Strengthening C++ for systems and low-level development
 
 ---
 
-# Technical Skills
-
-**Languages:** Python, Java, JavaScript, TypeScript, SQL, C++  
-**Backend:** REST APIs, Spring Boot, Node.js, Express, authentication, data validation  
-**Databases:** PostgreSQL, MongoDB  
-**Testing:** pytest, Playwright, Jest, Supertest, React Testing Library, MSW, Postman  
-**Tools:** Git, GitHub, GitHub Actions, Docker, Maven, Linux  
-
----
-
-# Current Focus
-
-* Networking (TCP/IP, UDP, Dante, ST2110, AES67/Ravenna, AES3, MADI)
-* Test automation and CI/CD workflows
-* Audio DSP fundamentals and signal processing
-* Strengthening C++ for low-level systems and performance-focused development
-
----
-
-# How I Work
+## How I Work
 
 * Structured, analytical, and evidence-driven
-* Focused on reliability, reproducibility, and clear documentation
-* Comfortable working from specifications and acceptance criteria
-* Strong technical communicator with a background in translation
-* Pragmatic, curious, and collaborative
+* Focused on reproducibility, reliability, and maintainability
+* Comfortable translating requirements into test scenarios
+* Strong technical communicator with professional language-quality experience
+* Experienced in documenting expected and actual behaviour clearly
+* Curious, pragmatic, and collaborative
 
 ---
 
-# Contact
+## Contact
 
-📧 **Email:** [joshua-pearson@outlook.com](mailto:joshua-pearson@outlook.com)  
-🔗 **LinkedIn:** [linkedin.com/in/joshua-pearson-qa](https://www.linkedin.com/in/joshua-pearson-qa)  
+📧 **Email:** [joshua-pearson@outlook.com](mailto:joshua-pearson@outlook.com)
+🔗 **LinkedIn:** [linkedin.com/in/joshua-pearson-qa](https://www.linkedin.com/in/joshua-pearson-qa)
