@@ -16,32 +16,35 @@ I design and execute structured test projects, build automated regression covera
 
 ## Featured Projects
 
-### 🧩 Shopping List App
+### 🔊 Audio Hardware Validation Framework
 
-A full-stack MERN application built with a strong emphasis on maintainability, testability, and automated regression coverage.
+A cross-platform Python CLI framework for automated audio-device discovery and stream-opening validation on Windows and Linux.
 
-**Engineering:**
+The framework is designed around testability, predictable failure handling, typed configuration, and hardware-independent automated testing.
 
-* REST API with authentication and authorisation
-* Secure per-user data isolation
-* Structured Express routing and middleware
-* Input validation and error handling
-* React frontend with asynchronous API integration
-* MongoDB persistence and data modelling
+**Key features:**
 
-**Testing:**
+* Audio-device discovery and capability inspection
+* Input-only, output-only, and duplex stream validation
+* Configuration-driven device matching
+* Ambiguity and no-match handling
+* WASAPI, WDM-KS, ALSA, JACK, and PulseAudio support
+* Structured JSON output
+* Rich terminal reporting
+* Deterministic fake backend for hardware-independent tests
 
-* Backend integration testing
-* Frontend component testing
-* API validation
-* Authentication and authorisation testing
-* Negative and failure-path testing
-* End-to-end browser testing
-* 59 automated tests across backend, frontend, and E2E layers
+**Engineering quality:**
 
-**Tech:** MongoDB • Express • React • Node.js • JavaScript • TypeScript  
-**Testing:** Jest • Supertest • React Testing Library • MSW • Playwright  
-**CI:** GitHub Actions  
+* Modular backend abstractions
+* pytest regression coverage
+* Strict mypy type checking
+* Ruff linting and formatting
+* Pre-commit hooks
+* GitHub Actions CI
+* Validation using a Focusrite Scarlett 2i2
+
+**Tech:** Python • Typer • Pydantic • sounddevice • PortAudio • Rich  
+**Quality:** pytest • mypy • Ruff • pre-commit • GitHub Actions  
 
 ---
 
@@ -81,38 +84,6 @@ The project applies professional QA methods to hardware/software integration tes
 
 ---
 
-### 🔊 Audio Hardware Validation Framework
-
-A cross-platform Python CLI framework for automated audio-device discovery and stream-opening validation on Windows and Linux.
-
-The framework is designed around testability, predictable failure handling, typed configuration, and hardware-independent automated testing.
-
-**Key features:**
-
-* Audio-device discovery and capability inspection
-* Input-only, output-only, and duplex stream validation
-* Configuration-driven device matching
-* Ambiguity and no-match handling
-* WASAPI, WDM-KS, ALSA, JACK, and PulseAudio support
-* Structured JSON output
-* Rich terminal reporting
-* Deterministic fake backend for hardware-independent tests
-
-**Engineering quality:**
-
-* Modular backend abstractions
-* pytest regression coverage
-* Strict mypy type checking
-* Ruff linting and formatting
-* Pre-commit hooks
-* GitHub Actions CI
-* Validation using a Focusrite Scarlett 2i2
-
-**Tech:** Python • Typer • Pydantic • sounddevice • PortAudio • Rich  
-**Quality:** pytest • mypy • Ruff • pre-commit • GitHub Actions  
-
----
-
 ### 🎵 Audio QA Framework
 
 A Python CLI framework for validating audio-file metadata and waveform-level properties against configurable quality requirements.
@@ -134,6 +105,35 @@ The project includes structured PASS, WARNING and FAIL reporting, synthetic audi
 **Tech:** Python, NumPy, SoundFile, Typer, Rich
 **Testing:** pytest
 **CI:** GitHub Actions
+
+---
+
+### 🧩 Shopping List App
+
+A full-stack MERN application built with a strong emphasis on maintainability, testability, and automated regression coverage.
+
+**Engineering:**
+
+* REST API with authentication and authorisation
+* Secure per-user data isolation
+* Structured Express routing and middleware
+* Input validation and error handling
+* React frontend with asynchronous API integration
+* MongoDB persistence and data modelling
+
+**Testing:**
+
+* Backend integration testing
+* Frontend component testing
+* API validation
+* Authentication and authorisation testing
+* Negative and failure-path testing
+* End-to-end browser testing
+* 59 automated tests across backend, frontend, and E2E layers
+
+**Tech:** MongoDB • Express • React • Node.js • JavaScript • TypeScript  
+**Testing:** Jest • Supertest • React Testing Library • MSW • Playwright  
+**CI:** GitHub Actions  
 
 ---
 
