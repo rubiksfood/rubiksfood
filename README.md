@@ -160,14 +160,15 @@ A collection of practical QA artefacts demonstrating an ISTQB-aligned approach t
 
 ## Technical Skills
 
-* **Audio Systems:** Audio interfaces, signal flow, recording/playback workflows, audio drivers and APIs, sample rates, latency, ASIO, WASAPI, ALSA, JACK, PipeWire, and PulseAudio
-* **Testing:** Manual, exploratory, functional, integration, API, system, regression, and end-to-end testing
-* **QA Methods:** Risk-based testing, test design, defect investigation, traceability, and test documentation
-* **Automation:** pytest, Playwright, Jest, Supertest, React Testing Library, MSW
-* **Programming:** Python, JavaScript, TypeScript, Java, SQL, C++
-* **Backend:** Node.js, Express, Spring Boot, REST APIs, authentication, and input validation
-* **Databases:** MongoDB, PostgreSQL, SQL
-* **Tools:** Git, GitHub, GitHub Actions, Docker, Postman, Linux, Jira
+- **Audio Systems:** Audio interfaces, signal flow, recording/playback workflows, audio drivers and APIs, sample rates, latency, ASIO, WASAPI, ALSA, JACK, PipeWire, and PulseAudio
+- **Audio Analysis & DSP:** Deterministic signal generation, RMS/peak/DC-offset analysis, silence/clipping detection, FFT and digital-filter fundamentals
+- **Testing:** Manual, exploratory, functional, integration, API, system, regression, and end-to-end testing
+- **QA Methods:** Risk-based testing, test design, defect investigation, traceability, failure-path testing, and test documentation
+- **Automation:** pytest, Playwright, Jest, Supertest, React Testing Library, MSW
+- **Programming:** Python, JavaScript, TypeScript, Java, SQL, C++
+- **Backend:** Node.js, Express, Spring Boot, REST APIs, authentication, and input validation
+- **Databases:** MongoDB, PostgreSQL, SQL
+- **Tools:** Git, GitHub, GitHub Actions, Docker, Postman, Linux, Jira
 
 ---
 
