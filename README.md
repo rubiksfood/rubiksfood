@@ -10,8 +10,6 @@ Alongside audio-focused work, I also develop and test general software systems u
 
 📍 **Based in Germany:** Open to relocation and opportunities across Europe  
 
-🌍 **Citizenship:** German and British  
-
 🗣️ **Languages:** English (native) • German and Spanish (fluent)  
 
 ---
@@ -20,32 +18,39 @@ Alongside audio-focused work, I also develop and test general software systems u
 
 ### 🔊 Audio Hardware Validation Framework
 
-A cross-platform Python CLI framework for automated audio-device discovery, stream validation, recording, and playback across Windows and Linux.
+A cross-platform Python CLI framework for automated audio-device discovery, stream validation, recording, playback, deterministic signal generation, and sample-domain audio analysis across Windows and Linux.
 
-The project is designed around reliable hardware interaction, predictable failure handling, testability, and reproducible validation.
+The project is designed around reliable hardware interaction, predictable failure handling, testability, reproducible validation, and hardware-independent automation.
 
 **Key features:**
 
 * Audio-device discovery and capability inspection
 * Input, output, and duplex stream validation
 * Finite recording and WAV-based playback
+* Deterministic sine-wave and silence generation
+* RMS, peak, and DC-offset analysis
+* Silence and clipping detection
+* Configuration-driven audio metric thresholds
+* Structured per-channel validation failures
+* `analyse-audio` CLI command with human-readable and JSON output
 * Configuration-driven device matching
 * Ambiguity and no-match handling
 * WASAPI, WDM-KS, ALSA, JACK, and PulseAudio support
-* Structured output and terminal reporting
 * Deterministic fake backends for hardware-independent testing
 
 **Engineering quality:**
 
-* Modular backend abstractions
-* pytest regression coverage
+* Modular backend and service abstractions
+* Framework-owned audio buffers and exception handling
+* Defensive validation for empty and non-finite audio inputs
+* pytest regression coverage with 99% overall coverage
 * Strict mypy type checking
 * Ruff linting and formatting
 * Pre-commit hooks
 * GitHub Actions CI
 * Hardware validation using a Focusrite Scarlett 2i2
 
-**Tech:** Python • Typer • Pydantic • sounddevice • PortAudio • Rich  
+**Tech:** Python • Numpy • Typer • Pydantic • sounddevice • soundfile • PortAudio • Rich  
 **Quality:** pytest • mypy • Ruff • pre-commit • GitHub Actions  
 
 ---
@@ -83,30 +88,6 @@ The project applies professional QA methods to real audio hardware, combining re
 * Final test report
 
 **Focus:** Audio QA • Hardware Validation • Risk-Based Testing • Cross-Platform Testing • Test Documentation  
-
----
-
-### 🎵 Audio QA Framework
-
-A Python CLI framework for validating audio-file metadata and waveform-level properties against configurable quality requirements.
-
-**Implemented checks:**
-
-* File readability
-* Sample rate
-* Channel count
-* Duration
-* Peak level in dBFS
-* RMS level in dBFS
-* Digital clipping
-* Leading silence
-* Trailing silence
-
-The project includes structured PASS, WARNING, and FAIL reporting, synthetic audio fixtures, pytest regression coverage, and GitHub Actions CI.
-
-**Tech:** Python • NumPy • SoundFile • Typer • Rich  
-**Testing:** pytest  
-**CI:** GitHub Actions  
 
 ---
 
@@ -206,8 +187,8 @@ A collection of practical QA artefacts demonstrating an ISTQB-aligned approach t
 * Cross-platform audio systems
 * Test automation and CI-integrated quality workflows
 * Python tooling and maintainable software architecture
-* Audio networking, including Dante, TCP/IP, and UDP
 * Hardware/software integration
+* DSP (audio signals, FFTs, digital filters, frequency-domain analysis)
 * Strengthening C++ for systems and low-level development
 
 ---
