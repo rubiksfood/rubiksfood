@@ -184,11 +184,10 @@ A collection of practical QA artefacts demonstrating an ISTQB-aligned approach t
 
 ## Current Focus
 
-* Audio software and hardware validation
-* Cross-platform audio systems
+* Real-Time Operating Systems, e.g. FreeRTOS
+* Hardware/software integration
 * Test automation and CI-integrated quality workflows
 * Python tooling and maintainable software architecture
-* Hardware/software integration
 * DSP (audio signals, FFTs, digital filters, frequency-domain analysis)
 * Strengthening C++ for systems and low-level development
 
