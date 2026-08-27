@@ -28,27 +28,38 @@ The project is designed around reliable hardware interaction, predictable failur
 * Input, output, and duplex stream validation
 * Finite recording and WAV-based playback
 * Deterministic sine-wave and silence generation
+* Physical end-to-end loopback validation
+* Configurable input/output channel routing
+* Captured-signal alignment against known reference signals
+* Dominant-frequency measurement
 * RMS, peak, and DC-offset analysis
 * Silence and clipping detection
-* Configuration-driven audio metric thresholds
+* Configuration-driven metric and frequency tolerances
 * Structured per-channel validation failures
-* `analyse-audio` CLI command with human-readable and JSON output
-* Configuration-driven device matching
-* Ambiguity and no-match handling
-* WASAPI, WDM-KS, ALSA, JACK, and PulseAudio support
+* Human-readable and JSON CLI reporting
+* WAV and JSON evidence retention for passing and failing loopback tests
+* WASAPI, WDM-KS, ALSA, JACK, and PulseAudio device/topology investigation
 * Deterministic fake backends for hardware-independent testing
+
+Hardware validation & diagnostics:
+
+* Verified physical Scarlett 2i2 loopback through direct ALSA at 48 kHz
+* Verified physical JACK loopback with manual runtime graph routing
+* Distinguished physical loopback from JACK software/monitor routing
+* Used cable A/B/A testing and gain-dependent measurements to verify the analogue signal path
+* Documented transient JACK/PortAudio routing limitations and host-API-specific behaviour
 
 **Engineering quality:**
 
-* Modular backend and service abstractions
-* Framework-owned audio buffers and exception handling
-* Defensive validation for empty and non-finite audio inputs
-* pytest regression coverage with 99% overall coverage
+* Layered backend, service, validation, analysis, and reporting abstractions
+* Framework-owned audio buffers, result models, and exception handling
+* Deterministic fake-backend coverage of duplex workflows without physical hardware
+* Defensive validation of empty, invalid, and non-finite audio inputs
+* pytest regression suite with 400 tests and 99% overall coverage
 * Strict mypy type checking
 * Ruff linting and formatting
 * Pre-commit hooks
 * GitHub Actions CI
-* Hardware validation using a Focusrite Scarlett 2i2
 
 **Tech:** Python • Numpy • Typer • Pydantic • sounddevice • soundfile • PortAudio • Rich  
 **Quality:** pytest • mypy • Ruff • pre-commit • GitHub Actions  
